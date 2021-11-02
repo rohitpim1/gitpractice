@@ -79,10 +79,31 @@ body{
     margin-top: 50px;
 }
 
-.hero .cta_button button{
+.hero .cta_button .purchaseButt button{
     margin-right: 20px;
     width: 100px;
     height: 30px;
     border-radius: 20px;
-    border:none
+    border:none;
+    font-size: larger;
+    background:  rgb(11, 131, 11);
+    color: #fff;
+}
+
+.hero .cta_button .readmore button{
+    margin-right: 20px;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    border:none;
+    font-size: larger;
+    background:  rgba(46, 51, 46, 0.514);
+
+}
+.hero .cta_button .readmore button:hover{
+    background-color: rgb(11, 131, 11);
+    transform: translateX(10px);
+}
+.hero .cta_button .purchaseButt button:hover{
+    transform: translateX(10px);
 }
