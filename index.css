@@ -212,3 +212,27 @@ body{
     content: "'";
     color: red;
 }
+
+.testimonil{
+display: flex;
+justify-content: space-around;
+align-items:center;
+
+
+}
+
+.testimonil .testiCard{
+    width: 200px;
+    height: auto;
+}
+
+.testiCard .img1 img{
+    width: 200px;
+    height: 200px;
+}
+
+.testiCard .msg{
+    margin-top: 20px;
+    font-size: larger;
+    color: rgba(13, 9, 70, 0.897);
+}
