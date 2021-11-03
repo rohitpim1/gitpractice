@@ -107,3 +107,82 @@ body{
 .hero .cta_button .purchaseButt button:hover{
     transform: translateX(10px);
 }
+
+.services{
+    display: flex;
+    flex-direction: column;
+    
+    max-width: 100%;
+}
+
+.services .servicesHeader{
+ margin-top: 30px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.services .servicesHeader h3{
+    font-size: 1.6rem;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(13, 9, 70, 0.897);
+}
+
+.services .containerCard{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.containerCard .card{
+    width: 200px;
+    height: auto;
+    border:2px solid black;
+    border-radius: 20px;
+    background-color: seashell;
+    border:none;
+}
+.card .heading h3{
+  text-align: center; 
+  padding-top: 10px;
+  padding-bottom: 10px; 
+}
+.card .imgCard{
+    width: 200px;
+    height: 200px;
+}
+
+.card .imgCard img{
+    width: 200px;
+    height: 200px;   
+}
+
+.card .cardContent{
+    margin: 20px;
+    font-size: 1.3rem;
+}
+
+.card .cardBtn{
+   display: flex;
+   justify-content: center; 
+   align-items: center;
+   margin-bottom: 30px;
+}
+
+.card .cardBtn button{
+    width: 70px;
+    height: 30px;
+    border-radius: 20px;
+    line-height: 10px;
+    padding: 2px;
+    font-size: 0.8rem;
+    border: none;
+    user-select: none;
+    outline: none;
+    background-color: rgba(36, 23, 211, 0.897);
+    color: white;
+    cursor: pointer;
+}
