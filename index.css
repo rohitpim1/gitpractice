@@ -217,13 +217,15 @@ body{
 display: flex;
 justify-content: space-around;
 align-items:center;
-
+flex-wrap: wrap;
+gap: 20px;
 
 }
 
 .testimonil .testiCard{
     width: 200px;
     height: auto;
+    background-color: blanchedalmond;
 }
 
 .testiCard .img1 img{
@@ -234,5 +236,6 @@ align-items:center;
 .testiCard .msg{
     margin-top: 20px;
     font-size: larger;
+    padding: 10px;
     color: rgba(13, 9, 70, 0.897);
 }
