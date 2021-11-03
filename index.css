@@ -213,6 +213,7 @@ body{
     color: red;
 }
 
+
 .testimonil{
 display: flex;
 justify-content: space-around;
@@ -238,4 +239,35 @@ gap: 20px;
     font-size: larger;
     padding: 10px;
     color: rgba(13, 9, 70, 0.897);
+}
+
+.review{
+    margin-top: 80px;
+}
+.review::before{
+    content: "Reviews";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+    color: rgba(13, 9, 70, 0.897);
+}
+
+.review .container1{
+    display: flex;
+justify-content: space-around;
+align-items: center;
+flex-wrap: wrap;
+gap: 20px;
+}
+.reviewCard{
+    width: 200px;
+    height: auto;
+
+}
+
+.reviewCard .reviewerImg img{
+    width: 200px;
+    height: 200px;
 }
