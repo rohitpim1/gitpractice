@@ -187,3 +187,28 @@ body{
     color: white;
     cursor: pointer;
 }
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.about p{
+    width: 500px;
+    font-size: 1.2rem;
+    color: rgba(13, 9, 70, 0.897);
+    font-weight: bolder;
+    
+}
+
+.about p::before{
+    content: "'";
+    color:red;
+}
+.about p::after{
+    content: "'";
+    color: red;
+}
